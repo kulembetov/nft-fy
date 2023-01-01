@@ -1,7 +1,7 @@
 ## Name of project
 [NFT FY](https://kulembetov.github.io/nft-fy)
 
-## Описание
+## Description
 The one-page website was made according to the layout from Figma. Made as part of free activity.
 
 ## Layouts
