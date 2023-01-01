@@ -1,0 +1,15 @@
+.intro__description {
+  width: 259px;
+  height: 190px;
+  color: #fff;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 95px;
+  text-align: center;
+  align-self: center;
+  margin: 0;
+}
+
+.intro__description:hover {
+}

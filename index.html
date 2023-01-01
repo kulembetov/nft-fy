@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>NFT FY</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <img class="header__logo" src="./images/logo.svg" alt="logo NFTFY">
+    <ul class="header__list">
+      <li class="header__item">
+        <a class="header__link" href="#">
+          <h2>Discover</h2>
+        </a>
+      </li>
+      <li class="header__item">
+        <a class="header__link" href="#">
+          <h2>Products</h2>
+        </a>
+      </li>
+      <li class="header__item">
+        <a class="header__link" href="#">
+          <h2>Marketplace</h2>
+        </a>
+      </li>
+      <li class="header__item">
+        <a class="header__link" href="#">
+          <h2>Explore</h2>
+        </a>
+      </li>
+    </ul>
+    <button class="header__button">Create Account</button>
+  </header>
+  <section class="side-menu">
+    <ul class="side-menu__list">
+      <li class="side-menu__item">
+        <a class="side-menu__link" href="#" target="_blank">
+          <img class="side-menu__image" src="./images/reddit.svg" alt="logo Reddit">
+        </a>
+      </li>
+      <li class="side-menu__item">
+        <a class="side-menu__link" href="#" target="_blank">
+          <img class="side-menu__image" src="./images/github.svg" alt="logo Github">
+        </a>
+      </li>
+      <li class="side-menu__item">
+        <a class="side-menu__link" href="#" target="_blank">
+          <img class="side-menu__image" src="./images/m.svg" alt="logo M">
+        </a>
+      </li>
+      <li class="side-menu__item">
+        <a class="side-menu__link" href="#" target="_blank">
+          <img class="side-menu__image" src="./images/instagram.svg" alt="logo Instagram">
+        </a>
+      </li>
+      <li class="side-menu__item">
+        <a class="side-menu__link" href="#" target="_blank">
+          <img class="side-menu__image" src="./images/telegram.svg" alt="logo Telegram">
+        </a>
+      </li>
+      <li class="side-menu__item">
+        <a class="side-menu__link" href="#" target="_blank">
+          <img class="side-menu__image" src="./images/twitter.svg" alt="logo Twitter">
+        </a>
+      </li>
+    </ul>
+  </section>
+  <section class="intro">
+    <h1 class="intro__title">NFTs</h1>
+    <img class="intro__image" src="./images/phone.png" alt="Phone with opening trading app">
+    <h2 class="intro__description">Made Easy</h2>
+
+  </section>
+  <section class="platform">
+    <h2 class="platform__description">Using our digital assets investment platform, you can create, trade, mint andinvestseamlessly in Non-Fungible tokens (NFTs)</h2>
+  </section>
+  <div class="popup" id="popup-profile">
+    <div class="popup__overlay">
+      <form class="popup__form" id="form_create-profile" name="create-profile" method="post">
+        <h2 class="popup__title">Create Account</h2>
+        <input class="popup__input-email" id="popup-profile-input" type="email" name="name" placeholder="Email" value=""minlength="2" maxlength="20" required>
+        <input class="popup__input-password" type="password" name="password" placeholder="Password" value=""minlength="16" maxlength="50" required>
+        <button class="popup__button-submit" type="submit">Submit</button>
+      </form>
+      <button class="popup__button-close" type="button" aria-label="Close button"></button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

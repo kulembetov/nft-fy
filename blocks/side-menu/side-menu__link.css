@@ -1,0 +1,9 @@
+.side-menu__link {
+  transition: .3s ease-in-out;
+}
+
+.side-menu__link:hover {
+  opacity: .6;
+  transform: scale(1.5);
+}
+

@@ -1,0 +1,8 @@
+.intro__image {
+  transition: .3s ease-in-out;
+  opacity: .5;
+}
+
+.intro__image:hover {
+  opacity: .9;
+}

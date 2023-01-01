@@ -1,0 +1,9 @@
+.header__logo {
+  width: 122px;
+  height: 84px;
+  transition: .3s ease-in-out;
+}
+
+.header__logo:hover {
+  opacity: .6;
+}

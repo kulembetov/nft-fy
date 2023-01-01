@@ -1,0 +1,7 @@
+.side-menu__image {
+  transition: .3s ease-in-out;
+}
+
+.side-menu__image:hover {
+  transform: scale(1.5);
+}

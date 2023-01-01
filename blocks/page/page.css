@@ -1,0 +1,19 @@
+.page {
+  background: linear-gradient(149deg, #0d0101 0%, #260404 42%, #120c0c 72%, #2e0606 100%);
+  background-size: auto;
+  animation: gradient 15s infinite linear;
+  background-size: 400%;
+  background-color: #000;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 80% 0%;
+  }
+  50% {
+      background-position: 20% 100%;
+  }
+  100% {
+      background-position: 80% 0%;
+  }
+}
